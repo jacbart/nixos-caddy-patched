@@ -16,7 +16,7 @@ import (
 	// plug in Caddy modules here
 	_ "github.com/caddy-dns/cloudflare" // Added the cloudflare provider plugin
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
-	_ "github.com/greenpau/caddy-security" // Added the caddy-security plugin
+	_ "github.com/caddyserver/forwardproxy"
 )
 
 func main() {
